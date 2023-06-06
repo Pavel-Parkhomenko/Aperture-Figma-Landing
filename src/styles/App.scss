@@ -1,0 +1,44 @@
+@use "./base/typography";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --dark: #000;
+  --navBg: #181818;
+  --white: #fff;
+  --gray: #c0c0c0;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.container {
+  max-width: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main{
+  padding: 100px 0;
+  background: var(--dark);
+  position: relative;
+}

@@ -1,0 +1,38 @@
+.section-title {
+  text-align: center;
+  font-size: 35px;
+  color: var(--white);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.section-subtitle {
+  font-size: 23px;
+  text-align: center;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.content-subtitle {
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-regular {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.white {
+  color: var(--white);
+}
+.gray {
+  color: var(--gray);
+}
