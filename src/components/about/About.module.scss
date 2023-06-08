@@ -1,0 +1,30 @@
+.root{
+	padding-bottom: 70%;
+}
+
+.content{
+	color: var(--white);
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	margin-top: 36px;
+
+	.card{
+		height: 600px;
+		position: relative;
+		&_content{
+			max-width: 500px;
+			position: absolute;
+			bottom: 20px;
+			left: 20px;
+
+		}
+
+		&_title{
+			margin-bottom: 15px;
+		}
+	}
+}
