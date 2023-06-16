@@ -31,14 +31,8 @@ export const Footer = ({ logo }) => {
             {new Date().getFullYear()}
           </p>
           <div className={footer.social}>
-            <a href="https://t.me/AKcoder7L" style={{ color: "var(--gray)" }}>
+            <a href="" style={{ color: "var(--gray)" }}>
               <FaTelegram size={24} />
-            </a>
-            <a href="https://t.me/AKcoder7L" style={{ color: "var(--gray)" }}>
-              <FaInstagram size={24} />
-            </a>
-            <a href="https://t.me/AKcoder7L" style={{ color: "var(--gray)" }}>
-              <FaFacebookF size={24} style={{ color: "var(--gray" }} />
             </a>
           </div>
         </div>
