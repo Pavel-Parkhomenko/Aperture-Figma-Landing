@@ -1,0 +1,49 @@
+.root {
+  margin-top: 15px;
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
+
+  @media (max-width: 650px) {
+    bottom: 20px;
+    right: 50%;
+    left: 50%;
+  }
+}
+
+.list {
+  display: flex;
+  color: var(--white);
+  gap: 15px;
+
+  @media (max-width: 880px) {
+    justify-content: center;
+  }
+
+  li {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    gap: 5px;
+
+    &:nth-child(3) {
+      img {
+        width: 32px;
+        height: 20px;
+      }
+    }
+
+    &:last-child {
+      img {
+        width: 10px;
+        height: 16px;
+      }
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
