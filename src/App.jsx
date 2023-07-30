@@ -9,6 +9,7 @@ import exampleWork2 from "./assets/imgs/sectionBg/exampleWork-2.png";
 import exampleWork3 from "./assets/imgs/sectionBg/exampleWork-3.png";
 import { Tools } from "./components/Usedtools/Tools";
 import { Clients } from "./components/pastClients/Clients";
+import { Connect } from "./components/getInTouch/Connect";
 import "./styles/App.scss";
 import { Footer } from "./components/footer/Footer";
 
@@ -32,7 +33,12 @@ function App() {
           text={
             "Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non."
           }
-          
+          settings={{
+            shutter: "1''",
+            aperture: "f/16",
+            iso: "400",
+            location: "Japan",
+          }}
         />
         <Tools
           settings={{
@@ -48,7 +54,12 @@ function App() {
           text={
             "Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt."
           }
-          
+          settings={{
+            shutter: "1/400s",
+            aperture: "f/3,5",
+            iso: "100",
+            location: "Costa Rica",
+          }}
         />
         <Clients />
         <Example
@@ -57,8 +68,14 @@ function App() {
           text={
             "Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula."
           }
-          
+          settings={{
+            shutter: "6''",
+            aperture: "f/11",
+            iso: "800",
+            location: "Nepal",
+          }}
         />
+        <Connect />
       </div>
       <Footer logo={logo}/>
     </div>
